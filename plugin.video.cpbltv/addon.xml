@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.cpbltv"
+    name="中華職棒 (CPBLTV)"
+    version="1.0.1"
+    provider-name="suzuke">
+    <extension
+        point="xbmc.python.pluginsource"
+        library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">CPBLTV video plugin</summary>
+        <description lang="en">CPBLTV</description>
+        <platform>all</platform>
+    </extension>
+</addon>
